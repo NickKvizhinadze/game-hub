@@ -29,7 +29,8 @@ const useData = <T>(endpoint: string) => {
             });
 
         return () => controller.abort();
-    }, []);
+    }, [endpoint]);
+
     return { data, error, loading };
 }
 
