@@ -21,7 +21,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
         ? skeltons.map((skeleton) => <GenreSkeleton key={skeleton} />)
         : data.map((genre) => (
             <ListItem paddingY="5px" key={genre.id}>
-              <HStack>
+              <HStack paddingLeft="10px">
                 <Image
                   boxSize="32px"
                   borderRadius={8}
