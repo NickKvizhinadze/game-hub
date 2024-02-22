@@ -1,4 +1,8 @@
-export default [
+export default {
+    "count": 14,
+    "next": null,
+    "previous": null,
+    "results": [
         {
             "id": 1,
             "name": "PC",
@@ -8,8 +12,8 @@ export default [
                     "id": 4,
                     "name": "PC",
                     "slug": "pc",
-                    "games_count": 526034,
-                    "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
+                    "games_count": 526035,
+                    "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -25,8 +29,8 @@ export default [
                     "id": 187,
                     "name": "PlayStation 5",
                     "slug": "playstation5",
-                    "games_count": 1025,
-                    "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+                    "games_count": 1026,
+                    "image_background": "https://media.rawg.io/media/games/9aa/9aa42d16d425fa6f179fc9dc2f763647.jpg",
                     "image": null,
                     "year_start": 2020,
                     "year_end": null
@@ -35,8 +39,8 @@ export default [
                     "id": 18,
                     "name": "PlayStation 4",
                     "slug": "playstation4",
-                    "games_count": 6771,
-                    "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg",
+                    "games_count": 6772,
+                    "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -102,8 +106,8 @@ export default [
                     "id": 1,
                     "name": "Xbox One",
                     "slug": "xbox-one",
-                    "games_count": 5596,
-                    "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg",
+                    "games_count": 5597,
+                    "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -112,8 +116,8 @@ export default [
                     "id": 186,
                     "name": "Xbox Series S/X",
                     "slug": "xbox-series-x",
-                    "games_count": 887,
-                    "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
+                    "games_count": 888,
+                    "image_background": "https://media.rawg.io/media/games/eb5/eb514db62d397c64288160d5bd8fd67a.jpg",
                     "image": null,
                     "year_start": 2020,
                     "year_end": null
@@ -166,8 +170,8 @@ export default [
                     "id": 21,
                     "name": "Android",
                     "slug": "android",
-                    "games_count": 52334,
-                    "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg",
+                    "games_count": 52336,
+                    "image_background": "https://media.rawg.io/media/games/fc3/fc30790a3b3c738d7a271b02c1e26dc2.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -237,8 +241,8 @@ export default [
                     "id": 7,
                     "name": "Nintendo Switch",
                     "slug": "nintendo-switch",
-                    "games_count": 5416,
-                    "image_background": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg",
+                    "games_count": 5417,
+                    "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -607,4 +611,5 @@ export default [
                 }
             ]
         }
-    ];
+    ]
+}
