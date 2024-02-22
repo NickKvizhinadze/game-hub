@@ -1,7 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { CACHE_KEY_GENRES } from "../constants";
-import apiClient from "../services/api-client";
-import { FetchResponse } from "./useData";
+import apiClient, { FetchResponse } from "../services/api-client";
 import genres from "../data/genres";
 
 export interface Genre {
@@ -12,7 +10,7 @@ export interface Genre {
 
 const useGenres = () => {
     return useQuery<FetchResponse<Genre>>({
-        queryKey: CACHE_KEY_GENRES,
+        queryKey: ["genres"],
         queryFn: () => apiClient
             .get<FetchResponse<Genre>>("/genres")
             .then(res => res.data),
