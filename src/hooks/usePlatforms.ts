@@ -1,13 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import ApiClient, { FetchResponse } from "../services/api-client";
+import ApiClient from "../services/api-client";
+import { FetchResponse } from "../services/FetchResponse";
 import platforms from "../data/platforms";
 import ms from "ms";
-
-export interface Platform {
-    id: number;
-    name: string;
-    slug: string;
-}
+import { Platform } from "../entities/Platform";
 
 const apiClient = new ApiClient<Platform>("/platforms/lists/parents");
 
